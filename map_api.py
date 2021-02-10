@@ -85,6 +85,7 @@ class Ui_Form(object):
         self.verticalLayout_4.addWidget(self.x_label)
         self.coords_x_lineedit = QtWidgets.QLineEdit(self.coords_x_lineedit_2)
         self.coords_x_lineedit.setObjectName("coords_x_lineedit")
+        self.coords_x_lineedit.clearFocus()
         self.verticalLayout_4.addWidget(self.coords_x_lineedit)
         self.verticalLayout.addWidget(self.coords_x_lineedit_2)
         self.coords_y_frame = QtWidgets.QFrame(self.left_frame)
